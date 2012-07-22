@@ -9,6 +9,7 @@ jQuery ->
   $(".tooltip").tooltip()
   $("a[rel=tooltip]").tooltip()
 
+
   $("#url_url").popover({
     animation: true,
     placement: 'bottom',
