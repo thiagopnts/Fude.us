@@ -1,0 +1,24 @@
+
+<section>
+  <header>
+    <%= image_tag "fuuu2.png", :width => 400, :height => 150 %>
+  </header>
+  <%= render 'form' %>
+  <% if not flash[:key].nil? %>
+    <script type="text/javascript" charset="utf-8">
+      $("#url_url").popover('hide')
+    </script>
+    <a href="/<%= flash[:key] %>" id="shorted">http://fude.us/<%= flash[:key] %></a> <i class="btn icon-download-alt"></i>
+  <% end %>
+  <div class="alert alert-error">
+    <button class="close" data-dismiss="alert">×</button>
+    <strong>ERRORRR!</strong> Invalid URL.
+  </div>
+  <footer>
+  <hr>
+  Developed by Thiago Pontes <br/>
+  <a href="http://thiagopontes.net">http://thiagopontes.net</a>
+  </footer>
+</section>
+
+

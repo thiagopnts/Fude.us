@@ -1,0 +1,9 @@
+<%= form_for(@url) do |f| %>
+  <% if @url.errors.any? %>
+  <% end %>
+
+  <div class="input-append">
+    <%= f.text_field :url, :class => "span5" %>
+    <%= f.submit "short it!", :class => "btn btn-inverse" %>
+  </div>
+<% end %>

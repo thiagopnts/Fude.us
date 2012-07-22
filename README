@@ -1,0 +1,5 @@
+
+
+##URL Shortener using Rails and Redis
+
+Simple Rails app using Redis without ActiveRecord.

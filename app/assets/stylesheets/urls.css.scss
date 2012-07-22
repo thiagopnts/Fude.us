@@ -1,0 +1,57 @@
+// Place all the styles related to the Urls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+section {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+  right: 35px;
+  top: 40px;
+}
+
+img {
+  margin-left: 150px;
+}
+
+input {
+font-family: tahoma, verdana, sans-serif;
+    font-size: 1.1em;
+  
+}
+
+footer {
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+#new_url, h2 {
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.input-append {
+  height: auto;
+  width: 700px;
+  position: relative;
+}
+
+.alert {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#shorted, i {
+  position: relative;
+  width: 700px;
+  left: 125px;
+  font-size: 18px;
+  margin: 0 auto;
+  top: 65px;
+}
+
+i {
+  margin-left: 10px;
+}
