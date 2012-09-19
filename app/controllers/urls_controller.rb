@@ -13,7 +13,6 @@ class UrlsController < ApplicationController
       flash[:key] = nil
       render :index
     end
-
   end
 
   def redirect
